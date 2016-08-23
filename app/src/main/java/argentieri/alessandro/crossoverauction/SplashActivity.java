@@ -11,6 +11,10 @@ import android.os.Handler;
 import android.util.Log;
 
 
+//questa è una splash activity
+// e questi sono i miei commenti
+
+
 public class SplashActivity extends Activity {
 
     // Splash screen timer
