@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#003456"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#003456"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text = "Submit a product"/>
+
+        <EditText
+            android:id="@+id/editNameNew"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textSize="20dp"
+            android:hint="name"/>
+
+        <EditText
+            android:id="@+id/editCathegoryNew"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textSize="20dp"
+            android:hint="cathegory"/>
+
+        <EditText
+            android:id="@+id/editDescriptionNew"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:inputType="textMultiLine"
+            android:hint="description"/>
+
+        <EditText
+            android:id="@+id/editPriceNew"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textSize="20dp"
+            android:hint="starting price"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text = "expiration date"/>
+
+        <DatePicker
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Pick a photo"
+            android:onClick="PickAPhoto"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_blue_selector"/>
+
+
+    <ImageView android:id = "@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="SUBMIT"
+        android:onClick="SubmitProduct"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_blue_selector"/>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#003456"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#003456"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="Do your offer!"/>
+
+    <TextView android:id="@+id/productText"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#3377FF"
+        android:textStyle="bold"
+        android:text="name of item"/>
+
+    <TextView android:id="@+id/cathegoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="cathegory"/>
+
+    <TextView android:id="@+id/sellerText"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="#3377FF"
+        android:textStyle="bold"
+        android:text="seller"/>
+
+    <ImageView android:id = "@+id/picImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src = "@drawable/adminart"/>
+
+    <TextView android:id="@+id/expirationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#FF77FF"
+        android:text="2017-12-15 15:00:00"/>
+
+    <TextView android:id="@+id/lastofferText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="Best Offer"/>
+
+
+    <EditText android:id="@+id/myofferEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:hint="Your Offer ($)"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_blue_selector"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:onClick="Offer"
+        android:layout_marginTop="10dp"
+        android:text="SUBMIT"/>
+
+
+
+</LinearLayout>
+</ScrollView>

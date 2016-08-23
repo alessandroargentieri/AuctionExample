@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Crossover Auction</string>
+    <string name="welcome">Welcome!</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="logout">Log Out</string>
+    <string name="search_cate">Search by cathegory</string>
+    <string name="search_name">Search by name</string>
+    <string name="submit">Submit an item</string>
+    <string name="won">Your won auctions</string>
+    <string name="biddings">Your biddings</string>
+</resources>
