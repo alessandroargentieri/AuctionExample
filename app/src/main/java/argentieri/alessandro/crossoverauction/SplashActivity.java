@@ -7,12 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.util.Log;
-
-import java.io.File;
-import java.io.FileOutputStream;
 
 
 public class SplashActivity extends Activity {
@@ -52,7 +48,6 @@ public class SplashActivity extends Activity {
             new ImageSaver(this).setFileName("art1_adminuser@gmail.png").setDirectoryName("images").save(art1);
             new ImageSaver(this).setFileName("art2_adminuser@gmail.png").setDirectoryName("images").save(art2);
             new ImageSaver(this).setFileName("art3_adminuser@gmail.png").setDirectoryName("images").save(art3);
-            //  createDirectoryAndSaveFile(shoes1, "prova.png", "/crossoverauction");
 
             String base_query = "INSERT INTO items (item_name, item_description, item_cathegory, uri_photo, expiration_date, starting_price, won, fk_user) VALUES ";
             db.execSQL(base_query + "('black shoes','gymnastic shoes for sport', 'dressing', 'shoes1_adminuser@gmail.png', '2016-12-4 14:59:00', '1200', 0, 'adminuser@gmail.com')");
