@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 
+//branch_new commit 2
 //branch_new commit
 //questa è una splash activity
 // e questi sono i miei commenti
